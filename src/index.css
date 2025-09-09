@@ -3299,8 +3299,9 @@ section,
   margin-bottom: 6px;
 }
 
-.cards .product-card .product-rating i {
+.cards .product-card .product-rating svg {
   color: #ffc107;
+  fill: #ffc107;
   margin-right: -1px;
 }
 
@@ -5520,7 +5521,7 @@ section,
   transform: translateY(-2px);
 }
 
-.category-product-list .product-actions .action-btn i {
+.category-product-list .product-actions .action-btn svg {
   font-size: 1.25rem;
 }
 

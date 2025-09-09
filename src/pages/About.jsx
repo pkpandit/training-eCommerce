@@ -7,12 +7,12 @@ import Testimonials from "../components/AboutPage/Testimonials";
 
 const About = () => {
   return (
-    <>
+    <main className="main">
       <PageTitle pageTitle="About" />
       <AboutContent />
       <Stats />
       <Testimonials />
-    </>
+    </main>
   );
 };
 
