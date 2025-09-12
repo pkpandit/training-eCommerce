@@ -4528,7 +4528,7 @@ section,
   .overview-content
   .highlights-grid
   .highlight-card
-  i {
+  svg {
   font-size: 2.5rem;
   color: var(--accent-color);
   margin-bottom: 1rem;
@@ -6189,13 +6189,13 @@ section,
   gap: 1rem;
 }
 
-.cart .cart-summary .payment-methods .payment-icons i {
+.cart .cart-summary .payment-methods .payment-icons svg {
   font-size: 1.5rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   transition: color 0.3s ease;
 }
 
-.cart .cart-summary .payment-methods .payment-icons i:hover {
+.cart .cart-summary .payment-methods .payment-icons svg:hover {
   color: var(--accent-color);
 }
 
